@@ -29,17 +29,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:onClick="phase10">
+            android:onClick="phase10"
+            android:clickable="true">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Phase 10"
-                android:textSize="36sp"/>
-            <ImageView
+                android:textSize="36sp"
+                android:onClick="phase10"
+                android:clickable="true"/>
+            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@mipmap/phase10_icon"
-                android:paddingLeft="32dp"/>
+                android:paddingLeft="32dp"
+                android:onClick="phase10"
+                android:clickable="true"/>
 
         </LinearLayout>
 
